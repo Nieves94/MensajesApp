@@ -1,0 +1,17 @@
+.logo-image{
+    block-size: 3rem;
+    inline-size: 3rem;
+    border-radius: 50%;
+
+}
+.logo{
+    background: var(--grey-4);
+    width: 27.43rem;
+    padding: 1rem;
+    block-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}

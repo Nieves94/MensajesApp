@@ -1,0 +1,7 @@
+.date{
+    background: #E5F2FA;
+    border-radius: .5rem;
+    padding: .635rem;
+    font: var(--body-16regular);
+    align-self: center;
+}

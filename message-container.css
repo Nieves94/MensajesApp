@@ -1,0 +1,33 @@
+.message-container input {
+        font: var(--body-16regular); 
+        padding-inline-start: 1.5rem;
+        padding-block: 0.8rem;
+        padding-inline-end: 1.5rem;
+        border-radius: 3rem;
+        border: none;
+        background: white;
+
+        width: 100%;
+        flex: 1;
+
+}
+
+.message-container{ 
+    display: flex;
+    align-items: center;
+
+}
+
+.message-container i{
+    font-size: 1.5rem;
+    padding-inline: .5rem;
+
+
+}
+
+.footer{
+    padding: 1rem;
+    background: var(--grey-4);
+    position: sticky;
+    bottom: 0;
+}

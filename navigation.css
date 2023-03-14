@@ -1,0 +1,77 @@
+.navigation{
+    display: flex;
+    max-inline-size: 27.43rem;
+    flex: 1;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+
+
+
+}
+
+.contact-name{
+    display: flex;
+    block-size: 1.25rem;
+    max-inline-size: 21.93rem;
+    align-items: center;
+    padding-block: 1rem;
+    justify-content: space-between;
+    
+
+}
+
+.contact-name h3{
+    font: var(--body-16regular);
+
+}
+
+.divider{
+    background: #f2f2f2;
+}
+
+.contact-message span{
+    background-image: url(/images/PngItem_3900365\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.contact-name p{
+    font: var(--caption-12regular);
+
+}
+
+.image-contact{
+    padding-inline-start: .5rem;
+    padding-block: 1rem;
+    padding-inline-end: .5rem;
+
+
+
+}
+
+.contact-message p{
+    font: var(--caption-12regular);
+
+
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex: 1;
+    max-inline-size: 21.93rem;
+    padding: 0;
+
+
+}
+
+.contact-message{
+    display: flex;
+    block-size: .7rem;
+    gap: .5rem  ;
+
+    align-items: center;
+
+}

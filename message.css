@@ -1,0 +1,93 @@
+
+
+
+.message-list{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+    background-image: url(images/bg.jpg);
+    padding: 1rem;
+}
+
+.message{
+
+    background: white;
+    padding: .5rem;
+    font: var(--body-16regular);
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    position: relative;
+}
+
+.message-text{
+    margin: 0;
+}
+
+.message.is-reciver{
+    background: var(--white);
+    align-self: flex-start;
+    border-radius: 0 .5rem  .5rem   .5rem;
+
+}
+.message.is-sender{
+    background: var(--green-1);
+    align-self: flex-end;
+    border-radius: .5rem    0  .5rem   .5rem;
+}
+
+.message-date{
+    font: var(--caption-12regular);
+    color: var(--grey);
+}
+
+.message-detail{
+    display: flex;
+    justify-content: flex-end;
+    gap: .25rem ;
+}
+
+.message-status{
+    inline-size: 1rem ;
+    block-size: 1rem;
+}
+
+.message-status.is-doublecheck{
+    background-image: url(images/whatsapp-check.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.message.is-reciver::before{
+    content: '';    
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-end: 100%;
+
+    
+    block-size: 12px;
+    inline-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid transparent;
+    border-inline-end: 6px solid white;
+    border-block-start: 6px solid white;
+    border-block-end: 6px solid transparent;
+}
+
+.message.is-sender::before{
+    content: '';    
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 100%;
+
+    
+    block-size: 12px;
+    inline-size: 12px;
+    box-sizing: border-box;
+    border-inline-start: 6px solid var(--green-1);
+    border-inline-end: 6px solid transparent;
+    border-block-start: 6px solid var(--green-1);
+    border-block-end: 6px solid transparent;
+}

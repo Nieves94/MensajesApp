@@ -1,0 +1,34 @@
+.search{
+    position: relative;
+    max-inline-size: 27.43rem;
+    background: var(--grey-3);
+    padding: 1rem;
+
+}
+
+.search i {
+    position: absolute;
+    font-size: 1.5rem;
+    left: 1.5rem;
+    bottom: calc(50% - 1.5em);
+    block-size: 3rem;
+
+}
+
+.search input {
+    font: var(--body-16regular); 
+    padding-inline-start: 4rem;
+    padding-block: 0.8rem;
+    padding-inline-end: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    background: white;
+    max-inline-size: 25rem;
+    width: 100%;
+}
+
+
+
+.icon-search{
+    font-size: 1.5rem;
+}

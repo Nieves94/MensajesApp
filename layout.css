@@ -1,0 +1,23 @@
+.layout{
+    min-inline-size: 15rem;
+
+}
+
+.layout-block{
+    display: flex;
+}
+
+.layout-sidebar{
+    min-inline-size: 27.43rem;
+    overflow: auto;
+    block-size: 100vh;
+    flex: 0;
+}
+
+.layout-page{
+    block-size: 100vh;
+    overflow: auto;
+    flex: 1;
+    inline-size: 57.93rem;
+
+}
